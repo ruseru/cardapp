@@ -1,4 +1,6 @@
 Rails.application.configure do
+
+  ENV['DATABASE_URL'] = 'postgres://kmwlitkxvycmei:ZxUOzc9ONCAz4xpr5JdtRlvQN8@ec2-54-163-225-208.compute-1.amazonaws.com:5432/daank29c0bvtnn'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

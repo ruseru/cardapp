@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.3.3'
 
+gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use sqlite3 as the database for Active Record
